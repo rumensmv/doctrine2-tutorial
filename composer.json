@@ -1,11 +1,11 @@
 {
     "require": {
-        "doctrine/orm": "^3",
-        "doctrine/dbal": "^4",
-        "symfony/cache": "^7"
+        "doctrine/dbal": "3.10",
+        "symfony/cache": "^7",
+        "symfony/var-exporter": "^8.0",
+        "doctrine/orm": "2.17"
     },
     "autoload": {
         "psr-0": {"": "src/"}
     }
 }
-    
